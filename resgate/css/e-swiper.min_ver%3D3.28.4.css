@@ -1,0 +1,23 @@
+/*
+ * O CSS personalizado para o carrossel Swiper
+ */
+
+/* ESSENCIAL: Define a largura e a altura do seu carrossel */
+.swiper {
+    width: 100%; 
+    height: 400px; /* <--- AJUSTE A ALTURA (400px) conforme o tamanho do seu banner! */
+}
+
+/* Garante que as imagens preencham todo o slide */
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Evita que a imagem seja distorcida */
+}
+
+/* Opcional: Melhora a visibilidade das setas */
+.swiper-button-next, .swiper-button-prev {
+    color: #ffffff; /* Cor branca para as setas */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Sombra para dar destaque */
+}
